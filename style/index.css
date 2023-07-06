@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+:root {
+    --primary-color: #5956e9;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active, .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+header .header-title {
+    font-size: 72px;
+}
+
+.card i {
+    color: var(--primary-color);
+    font-size: 72px;
+}
+
+.card:hover {
+    background-color: var(--primary-color);
+}
+
+.card:hover i, .card:hover h3, .card:hover .text-secondary, .card:hover .text-primary{
+    color: #FFFFFF !important;
+}
